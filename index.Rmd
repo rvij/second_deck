@@ -38,3 +38,9 @@ This is a hint
 
 *** .explanation
 This is an explanation
+
+----
+```{r}
+plot(cars)
+```
+---

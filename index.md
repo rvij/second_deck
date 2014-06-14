@@ -38,3 +38,13 @@ This is a hint
 
 *** .explanation
 This is an explanation
+
+----
+
+```r
+plot(cars)
+```
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
+
+---
