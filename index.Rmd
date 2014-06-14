@@ -23,6 +23,7 @@ knit        : slidify::knit2slides
 - first
 - second
 
+--- 
 --- &radio
 ## Question 1
 
@@ -38,6 +39,3 @@ This is a hint
 
 *** .explanation
 This is an explanation
-
-
-
