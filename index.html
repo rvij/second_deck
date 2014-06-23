@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Slidify Deck for mpgPredictor</title>
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Slidify Deck for mpgPredictor">
+  <meta name="author" content="Rajeev Vij">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
 <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="libraries/widgets/interactive/css/aceeditor.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
   
@@ -34,92 +35,86 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1></h1>
-    <h2></h2>
-    <p><br/></p>
+    <h1>Slidify Deck for mpgPredictor</h1>
+    <h2>Data Products</h2>
+    <p>Rajeev Vij<br/>IT Architect</p>
   </hgroup>
   <article></article>  
 </slide>
     
 
     <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
+    <slide class="class" id="id0" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>Agenda</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>mpgPredictor Application What is does?</li>
+<li>How it is built?</li>
+<li>How it can be used?</li>
 </ol>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="class" id="id1" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>mpgPRedictor Application</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>first</li>
-<li>second</li>
+<li>Machine learning application to predict Miles per gallon of a vehicle given input parameters</li>
+<li>Input parameters include weight, # of cynlinders and Transmission type</li>
+<li>This is an interactive web app where user can provide inputs and get prediction values</li>
 </ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
+<slide class="class" id="id2" style="background:;">
   <hgroup>
-    <h2>Question 1</h2>
+    <h2>How it is built</h2>
   </hgroup>
   <article data-timings="">
-    
-<div class="quiz quiz-single well ">
-  <p>What is 1 + 1?</p>
-
-<ol>
-<li>1</li>
-<li><em>2</em></li>
-<li>3</li>
-<li>4</li>
-</ol>
-
-  <button class="quiz-submit btn btn-primary">Submit</button>
-  <button class="quiz-toggle-hint btn btn-info">Show Hint</button>
-  <button class="quiz-show-answer btn btn-success">Show Answer</button>
-  <button class="quiz-clear btn btn-danger">Clear</button>
-  
-  <div class="quiz-hint">
-  <p>This is a hint</p>
-
-</div>
-<div class="quiz-explanation">
-  <p>This is an explanation</p>
-
-</div>
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-4" style="background:;">
-  <article data-timings="">
-    <pre><code class="r">plot(cars)
-</code></pre>
-
-<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+    <ul>
+<li>mpgPredictor application is built using Shiny Apps Web framework</li>
+<li>UI is designed using Shiny templates</li>
+<li>Predictor is built using Regression model built around &quot;mtcars&quot; dataset</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-5" style="background:;">
+<slide class="class" id="id3" style="background:;">
+  <hgroup>
+    <h2>How it be used</h2>
+  </hgroup>
   <article data-timings="">
-    
+    <ul>
+<li>mpgPredictor application is published on web server</li>
+<li>The application is very interactive form end users</li>
+<li>Prediction model is based on current available dataset</li>
+<li>Predicton model should be extended to include additional data</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id4" style="background:;">
+  <hgroup>
+    <h2>Sample Application Screen-shot</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Following screen-shot shows application web layout
+![mpgPredictor.png]</li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -130,31 +125,31 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='Agenda'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='mpgPRedictor Application'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Question 1'>
+        data-slide=3 title='How it is built'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title=''>
+        data-slide=4 title='How it be used'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title=''>
+        data-slide=5 title='Sample Application Screen-shot'>
          5
       </a>
     </li>
@@ -172,6 +167,8 @@
 <script src="libraries/widgets/quiz/js/quiz-app.js"></script>
 <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
 <script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+<script src="libraries/widgets/interactive/js/ace/js/ace.js"></script>
+<script src="libraries/widgets/interactive/js/interactive.js"></script>
 
   
   <script>  

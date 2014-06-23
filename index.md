@@ -1,50 +1,46 @@
 ---
-title       : 
-subtitle    : 
-author      : 
-job         : 
+title       : Slidify Deck for mpgPredictor
+subtitle    : Data Products
+author      : Rajeev Vij
+job         : IT Architect
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : [quiz, bootstrap]            # {mathjax, quiz, bootstrap}
+widgets     : [quiz, bootstrap, interactive]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
----
+--- .class #id0
 
-## Read-And-Delete
+## Agenda  
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+1. mpgPredictor Application What is does?
+2. How it is built?
+3. How it can be used?
 
---- .class #id 
+--- .class #id1 
 
-## Slide 2
-- first
-- second
+## mpgPRedictor Application
+- Machine learning application to predict Miles per gallon of a vehicle given input parameters
+- Input parameters include weight, # of cynlinders and Transmission type
+- This is an interactive web app where user can provide inputs and get prediction values
 
---- &radio
-## Question 1
+--- .class #id2 
 
-What is 1 + 1?
+## How it is built
+- mpgPredictor application is built using Shiny Apps Web framework
+- UI is designed using Shiny templates
+- Predictor is built using Regression model built around "mtcars" dataset
 
-1. 1
-2. _2_
-3. 3
-4. 4
+--- .class #id3
 
-*** .hint
-This is a hint
+## How it be used
+- mpgPredictor application is published on web server
+- The application is very interactive form end users
+- Prediction model is based on current available dataset
+- Predicton model should be extended to include additional data
 
-*** .explanation
-This is an explanation
+--- .class #id4 
 
-----
-
-```r
-plot(cars)
-```
-
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
-
----
+## Sample Application Screen-shot
+- Following screen-shot shows application web layout
+![mpgPredictor.png]
