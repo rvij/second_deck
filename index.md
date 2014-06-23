@@ -2,7 +2,7 @@
 title       : Slidify Deck for mpgPredictor
 subtitle    : Data Products
 author      : Rajeev Vij
-job         : IT Architect
+job         : Coursera Student
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -43,4 +43,6 @@ knit        : slidify::knit2slides
 
 ## Sample Application Screen-shot
 - Following screen-shot shows application web layout
+- Main screen of the mpgPredictor application
+
 ![](mpgPredictor.png)
