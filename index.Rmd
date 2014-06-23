@@ -13,7 +13,7 @@ knit        : slidify::knit2slides
 
 ## Agenda  
 
-1. mpgPredictor Application What is does?
+1. mpgPredictor Application What it does?
 2. How it is built?
 3. How it can be used?
 
