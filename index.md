@@ -43,4 +43,4 @@ knit        : slidify::knit2slides
 
 ## Sample Application Screen-shot
 - Following screen-shot shows application web layout
-![mpgPredictor.png]
+![](mpgPredictor.png)
